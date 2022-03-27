@@ -18,6 +18,7 @@ pub fn spawn_player(ecs: &mut World, pos: Point) {
             glyph: to_cp437('@'),
         },
         FieldOfView::new(8),
+        Damage(1),
     ));
 }
 
